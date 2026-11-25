@@ -26,6 +26,57 @@
 
 ---
 
+## 🎬 实机渲染动画预览 (Live Animation Previews)
+
+> 以下动图由本仓库固件真实 C 渲染源码直接离屏导出，像素级还原 240×240 ST7789 屏幕实机效果：
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <img src="pics/demo_dual_play.gif" width="210" alt="双宠日常游乐场" /><br/>
+      <sub><b>01 · 双宠日常游乐场</b> (OBSIDIAN)</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="pics/demo_tower_stack.gif" width="210" alt="叠叠乐高塔" /><br/>
+      <sub><b>02 · 叠叠乐高塔</b> (COBALT)</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="pics/demo_rainbow_cat.gif" width="210" alt="彩虹极光小紫猫" /><br/>
+      <sub><b>03 · 彩虹极光小紫猫</b> (IRIS)</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="pics/demo_laser_chase.gif" width="210" alt="激光红点大作战" /><br/>
+      <sub><b>05 · 激光红点大作战</b> (OBSIDIAN)</sub>
+    </td>
+    <td align="center">
+      <img src="pics/demo_coding_duo.gif" width="210" alt="结对编程 & 灵光一闪" /><br/>
+      <sub><b>06 · 结对编程 &amp; 灵光一闪</b> (COBALT)</sub>
+    </td>
+    <td align="center">
+      <img src="pics/demo_concert_dance.gif" width="210" alt="荧光棒打 Call 演唱会" /><br/>
+      <sub><b>07 · 荧光棒打 Call 演唱会</b> (IRIS)</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="pics/demo_quarrel_makeup.gif" width="210" alt="生气闹别扭 & 贴贴和好" /><br/>
+      <sub><b>14 · 生气闹别扭 &amp; 贴贴和好</b> (OBSIDIAN)</sub>
+    </td>
+    <td align="center">
+      <img src="pics/demo_whale_splash.gif" width="210" alt="蓝鲸 Deepy 喷水狂欢" /><br/>
+      <sub><b>17 · 蓝鲸 Deepy 喷水狂欢</b> (COBALT)</sub>
+    </td>
+    <td align="center">
+      <img src="pics/demo_campfire_story.gif" width="210" alt="星空篝火晚会" /><br/>
+      <sub><b>18 · 星空篝火晚会</b> (WARM)</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## ✨ 核心特性 (Features)
 
 - 🦀 **原版像素双宠演绎**：严格遵循 16×10 零黑描边纯方块语法与 ST7789 冷屏紫色校准，支持拉伸、压扁、揣手面包猫（Loaf）、飞机耳、炸毛尾、眨眼、挥钳举爪等丰富动作，并附带 **Rainbow Chroma 彩虹猫彩蛋**。
