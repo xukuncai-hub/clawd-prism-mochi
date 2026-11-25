@@ -1,5 +1,29 @@
-FILE(GLOB app_sources ${CMAKE_CURRENT_SOURCE_DIR}/*.c)
-
-idf_component_register(SRCS ${app_sources}
-                       INCLUDE_DIRS "."
-                       REQUIRES driver esp_timer esp_wifi esp_event nvs_flash esp_netif esp_http_server)
+idf_component_register(
+    SRCS
+        "main.c"
+        "display.c"
+        "font.c"
+        "prism_math.c"
+        "prism_gfx.c"
+        "mascot_art.c"
+        "scenes/scene_dual_play.c"
+        "scenes/scene_tower_stack.c"
+        "scenes/scene_rainbow_cat.c"
+        "scenes/scene_cafe_time.c"
+        "scenes/scene_laser_chase.c"
+        "scenes/scene_coding_duo.c"
+        "scenes/scene_concert_dance.c"
+        "scenes/scene_feast_dinner.c"
+        "scenes/scene_sleepy_night.c"
+        "scenes/scene_surf_party.c"
+        "scenes/scene_garden_bloom.c"
+        "scenes/scene_love_letter.c"
+        "scenes/scene_police_patrol.c"
+        "scenes/scene_quarrel_makeup.c"
+        "scenes/scene_goal_sprint.c"
+        "scenes/scene_hide_peek.c"
+        "scenes/scene_whale_splash.c"
+        "scenes/scene_campfire_story.c"
+    INCLUDE_DIRS "." "scenes"
+    REQUIRES driver esp_timer
+)
